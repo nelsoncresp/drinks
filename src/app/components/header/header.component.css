@@ -1,0 +1,36 @@
+.navbar-nav .nav-item {
+  position: relative;
+}
+
+.nav-link {
+  display: inline-block;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: salmon;
+  transition: width 0.3s;
+}
+
+.nav-item.active .nav-link::after,
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-item.active .nav-link {
+  padding-bottom: 2px;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin-left: auto;
+}

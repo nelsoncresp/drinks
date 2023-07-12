@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.custom-app-logo-container {
+  width: 100%; }
+
+.custom-app-logo-container img {
+  width: 170px;
+}
+
+.custom-app-logo-container h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 32px;
+  margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+}
+

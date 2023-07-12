@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.custom-card {
+  max-width: 230px;
+  margin-bottom: 16px;
+  margin: 0 auto;
+  border: 2px salmon;
+  border-radius: 6px;
+  box-shadow: none;
+}
+
+.custom-card-img {
+  max-height: 160px;
+  object-fit: cover;
+}
+
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+}
+hr {
+  width: 100%;
+  border: none;
+  border-top: 1px solid salmon;
+}
+.price {
+  font-weight: bold;
+}

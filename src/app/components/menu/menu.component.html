@@ -1,0 +1,14 @@
+<h2>Bebidas del menú</h2>
+<hr class="text-center">
+<div class="row custom-row">
+  <div class="col-md-3" *ngFor="let bebida of bebidas">
+    <div class="card custom-card mb-1">
+      <img src="{{ bebida.imagen }}" class="card-img-top custom-card-img" alt="{{ bebida.nombre }}">
+      <div class="card-body">
+        <h5 class="card-title">{{ bebida.nombre }}</h5>
+        <p class="card-text">{{ bebida.descripcion }}</p>
+        <p class="card-text price">Precio: {{ bebida.precio | currency:'USD' }}</p>
+      </div>
+    </div>
+  </div>
+</div>
